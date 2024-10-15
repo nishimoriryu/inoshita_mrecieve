@@ -1,0 +1,13 @@
+<CycloneDDS>
+  <Domain>
+    <General>
+      <AllowMulticast>true</AllowMulticast>
+      <Multicast>
+        <Meta>
+          <Address>239.255.0.1</Address>
+          <Port>7400</Port>
+        </Meta>
+      </Multicast>
+    </General>
+  </Domain>
+</CycloneDDS>

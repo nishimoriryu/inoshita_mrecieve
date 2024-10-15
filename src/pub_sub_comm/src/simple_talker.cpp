@@ -24,6 +24,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+
 // C++標準ライブラリ
 #include <chrono>
 #include <functional>
@@ -36,7 +37,6 @@
 #include "std_msgs/msg/string.hpp"
 
 // 名前空間の省略表記
-// std::chrono::milliseconds(100) を 100ms と表記できるようにする
 using namespace std::chrono_literals;
 
 // rclcpp::Nodeを継承したクラスSimpleTalkerの宣言
@@ -45,14 +45,12 @@ class SimpleTalker : public rclcpp::Node
 public:
   // コンストラクタ
   SimpleTalker()
-  : Node("simple_talker")   // ノード名をsimple_talkerで初期化
+  : Node("simple_talker"), count_(0)   // カウント変数の初期化
   {
     // publisherの生成
-    // 第一引数はトピック名、第二引数はバッファサイズ
     publisher_ = this->create_publisher<std_msgs::msg::String>("chatter", 10);
 
     // タイマの生成
-    // 100msごとに、timer_callback()関数が呼ばれるようにする
     timer_ = this->create_wall_timer(500ms, std::bind(&SimpleTalker::timer_callback, this));
   }
 
@@ -62,13 +60,16 @@ private:
   {
     // メッセージを定義し、中身のデータを設定
     std_msgs::msg::String msg;
-    msg.data = "hello, world!";
+    msg.data = "hello, world! " + std::to_string(count_);  // カウントをメッセージに追加
 
     // ターミナルへメッセージ表示
     RCLCPP_INFO(this->get_logger(), "publish: %s", msg.data.c_str());
 
     // メッセージ送信
     publisher_->publish(msg);
+
+    // カウントアップ
+    count_++;
   }
 
   // 一定周期で処理を実行するタイマ
@@ -76,6 +77,9 @@ private:
 
   // std_msgs::msg::String型のトピックを送信するpublisher
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+
+  // カウント用の変数
+  int count_;
 };
 
 int main(int argc, char * argv[])

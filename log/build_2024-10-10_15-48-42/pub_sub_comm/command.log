@@ -1,0 +1,6 @@
+Invoking command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/base0020/inoshita_mrecieve/src/pub_sub_comm -DCMAKE_INSTALL_PREFIX=/home/base0020/inoshita_mrecieve/install/pub_sub_comm
+Invoked command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/base0020/inoshita_mrecieve/src/pub_sub_comm -DCMAKE_INSTALL_PREFIX=/home/base0020/inoshita_mrecieve/install/pub_sub_comm
+Invoking command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/base0020/inoshita_mrecieve/build/pub_sub_comm -- -j16 -l16
+Invoked command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/base0020/inoshita_mrecieve/build/pub_sub_comm -- -j16 -l16
+Invoking command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/base0020/inoshita_mrecieve/build/pub_sub_comm
+Invoked command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/base0020/inoshita_mrecieve/build/pub_sub_comm

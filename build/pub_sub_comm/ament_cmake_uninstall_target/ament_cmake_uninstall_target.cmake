@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/module-dev/inoshita_mrecieve/install/pub_sub_comm")
+  set(install_space "/home/base0020/inoshita_mrecieve/install/pub_sub_comm")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/module-dev/inoshita_mrecieve/build/pub_sub_comm/install_manifest.txt")
+set(install_manifest "/home/base0020/inoshita_mrecieve/build/pub_sub_comm/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

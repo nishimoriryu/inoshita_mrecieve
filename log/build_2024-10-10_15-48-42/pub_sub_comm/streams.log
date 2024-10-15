@@ -1,0 +1,65 @@
+[0.010s] Invoking command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/base0020/inoshita_mrecieve/src/pub_sub_comm -DCMAKE_INSTALL_PREFIX=/home/base0020/inoshita_mrecieve/install/pub_sub_comm
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.185s] -- The CXX compiler identification is GNU 11.4.0
+[0.194s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.276s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.280s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.369s] -- Detecting CXX compile features
+[0.369s] -- Detecting CXX compile features - done
+[0.375s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.495s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.571s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.615s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.619s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.627s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.697s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.699s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.800s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.826s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.866s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.875s] -- Looking for pthread.h
+[0.960s] -- Looking for pthread.h - found
+[0.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.037s] -- Found Threads: TRUE  
+[1.139s] -- Configuring done
+[1.148s] -- Generating done
+[1.150s] -- Build files have been written to: /home/base0020/inoshita_mrecieve/build/pub_sub_comm
+[1.158s] Invoked command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/base0020/inoshita_mrecieve/src/pub_sub_comm -DCMAKE_INSTALL_PREFIX=/home/base0020/inoshita_mrecieve/install/pub_sub_comm
+[1.160s] Invoking command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/base0020/inoshita_mrecieve/build/pub_sub_comm -- -j16 -l16
+[1.212s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/simple_talker.cpp.o[0m
+[1.212s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/simple_listener.cpp.o[0m
+[4.465s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.613s] [ 75%] Built target talker
+[7.232s] [100%] [32m[1mLinking CXX executable listener[0m
+[7.478s] [100%] Built target listener
+[7.490s] Invoked command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/base0020/inoshita_mrecieve/build/pub_sub_comm -- -j16 -l16
+[7.538s] Invoking command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/base0020/inoshita_mrecieve/build/pub_sub_comm
+[7.543s] -- Install configuration: ""
+[7.543s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/lib/pub_sub_comm/talker
+[7.545s] -- Set runtime path of "/home/base0020/inoshita_mrecieve/install/pub_sub_comm/lib/pub_sub_comm/talker" to ""
+[7.545s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/lib/pub_sub_comm/listener
+[7.549s] -- Set runtime path of "/home/base0020/inoshita_mrecieve/install/pub_sub_comm/lib/pub_sub_comm/listener" to ""
+[7.549s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/ament_index/resource_index/package_run_dependencies/pub_sub_comm
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/ament_index/resource_index/parent_prefix_path/pub_sub_comm
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/environment/ament_prefix_path.sh
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/environment/ament_prefix_path.dsv
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/environment/path.sh
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/environment/path.dsv
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/local_setup.bash
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/local_setup.sh
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/local_setup.zsh
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/local_setup.dsv
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/package.dsv
+[7.550s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/ament_index/resource_index/packages/pub_sub_comm
+[7.551s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/cmake/pub_sub_commConfig.cmake
+[7.551s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/cmake/pub_sub_commConfig-version.cmake
+[7.551s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/package.xml
+[7.553s] Invoked command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/base0020/inoshita_mrecieve/build/pub_sub_comm

@@ -1,0 +1,29 @@
+[0.011s] Invoking command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/base0020/inoshita_mrecieve/build/pub_sub_comm -- -j16 -l16
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.107s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/simple_talker.cpp.o[0m
+[0.107s] [ 75%] Built target listener
+[3.322s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.475s] [100%] Built target talker
+[3.485s] Invoked command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/base0020/inoshita_mrecieve/build/pub_sub_comm -- -j16 -l16
+[3.526s] Invoking command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/base0020/inoshita_mrecieve/build/pub_sub_comm
+[3.533s] -- Install configuration: ""
+[3.533s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/lib/pub_sub_comm/talker
+[3.535s] -- Set runtime path of "/home/base0020/inoshita_mrecieve/install/pub_sub_comm/lib/pub_sub_comm/talker" to ""
+[3.535s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/lib/pub_sub_comm/listener
+[3.535s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/ament_index/resource_index/package_run_dependencies/pub_sub_comm
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/ament_index/resource_index/parent_prefix_path/pub_sub_comm
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/environment/ament_prefix_path.sh
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/environment/ament_prefix_path.dsv
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/environment/path.sh
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/environment/path.dsv
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/local_setup.bash
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/local_setup.sh
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/local_setup.zsh
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/local_setup.dsv
+[3.536s] -- Installing: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/package.dsv
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/ament_index/resource_index/packages/pub_sub_comm
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/cmake/pub_sub_commConfig.cmake
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/cmake/pub_sub_commConfig-version.cmake
+[3.536s] -- Up-to-date: /home/base0020/inoshita_mrecieve/install/pub_sub_comm/share/pub_sub_comm/package.xml
+[3.538s] Invoked command in '/home/base0020/inoshita_mrecieve/build/pub_sub_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/base0020/inoshita_mrecieve/build/pub_sub_comm
